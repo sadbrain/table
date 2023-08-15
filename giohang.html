@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gio Hang Dien Thoai</title>
+    <link rel="stylesheet" href="giohang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class = "header-navbar">
+            <ul class="header-navbar-list">
+                <li class="header-navbar-item header-navbar-item-strong">Nền tảng</li>
+                <li class="header-navbar-item header-navbar-item-strong">Trang chủ</li>
+                <li class="header-navbar-item">Quản trị</li>
+                <li class="header-navbar-item">Sản phẩm</li>
+                <li class="header-navbar-item">Giới thiệu</li>
+                <li class="header-navbar-item">Liên hệ</li>
+            </ul>
+
+            <ul class="header-navbar-list">
+                <li class="header-navbar-item">
+                    <input type="text" placeholder="Tìm Kiếm" class = "header-search-input">
+                </li>
+                <li class="header-navbar-item header-btn-search">
+                    <button class="header-search-btn">
+                        Tìm kiếm
+                    </button>
+                </li>
+                <li class="header-navbar-item">Giỏ hàng</li>
+                <li class="header-navbar-item">Đăng nhập</li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class = "container">
+        <h1 class = "container-cart">Giỏ hàng</h1>
+        <table class="container-cart-table">
+            <thead>
+                <th>STT</th>
+                <th>Ảnh đại diện</th>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Thành tiền</th>
+                <th>Hành động</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class = "cart-table-img-product"><img src = "https://i.ebayimg.com/images/g/PFUAAOSwxzZj-Lx4/s-l500.jpg" alt = "Samsung galaxy S3"></td>
+                    <td>Samsung galaxy S3   </td>
+                    <td>2</td>
+                    <td>12.000.000</td>
+                    <td>24.000.000</td>
+                    <td>
+                        
+                        <button>
+                            <i class="fa-solid fa-trash-can"></i> Xóa
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td class = "cart-table-img-product"><img src = "https://cdn.tgdd.vn/Products/Images/42/57240/iphone-5-trang-org-1.jpg" alt = "Apple iphone 5 16G"></td>
+                    <td>Apple iphone 5 16G</td>
+                    <td>5</td>
+                    <td>14.890.000</td>
+                    <td>74.450.000</td>
+                    <td>
+                        
+                        <button>
+                            <i class="fa-solid fa-trash-can"></i> Xóa
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td class = "cart-table-img-product"><img src = "https://cdn-v2.didongviet.vn/files/products/2023/4/29/1/1685354353744_oppo_a57_128gb_bh13t_thumb.png" alt = "oppo A57"></td>
+                    <td>Oppo A57</td>
+                    <td>2</td>
+                    <td>3.780.000</td>
+                    <td>7.560.000</td>
+                    <td>
+                        
+                        <button>
+                            <i class="fa-solid fa-trash-can"></i> Xóa
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
